@@ -28,7 +28,8 @@ import com.springtest.demoapp.entities.EmployeeMongo;
 @RequestMapping("/employee")
 public class EmployeeController {
 
-    public final String UPLOAD_PATH = new ClassPathResource("static/images").getFile().getAbsolutePath();
+    public final String UPLOAD_PATH = "D:\\Code\\Spring Boot\\springboot-mongo\\src\\main\\resources\\static\\images";
+    // public final String UPLOAD_PATH = new ClassPathResource("static/images").getFile().getAbsolutePath();
 
     public EmployeeController() throws IOException {
         
